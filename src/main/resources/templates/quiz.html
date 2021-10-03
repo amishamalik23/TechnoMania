@@ -16,7 +16,7 @@
 	<div th:insert="navbar.html :: navbar"></div>
 	
 	<div class="container py-5 px-4">
-		<h1 class="bg-primary text-light">Choose the correct option</h1>
+		<h1 class="bg-primary text-light">Choose the correct option ✅</h1>
 		
 		<form action="submit" method="POST" th:object=${qForm}>
 			<div class="ques-box bg-dark text-light" th:each="ques, i: ${qForm.questions}">

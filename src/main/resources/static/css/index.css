@@ -7,7 +7,16 @@
 body {
 	width: 100%;
 	overflow-x: hidden;
-	background: pink;
+	background-image: url("../images/fom.jpg");
+	
+	
+}
+h1{
+	font-family: 'Raleway',sans-serif;
+	font-style:italic;
+	font-size:62px;
+	font-weight:400;
+	
 	
 }
 
@@ -21,6 +30,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	
 	
 }
 
